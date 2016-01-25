@@ -21,10 +21,20 @@ nsqConfig: {
 ####2. Concept of `Producer` and `Customer`
 Every module in a distributed architecture is a `Producer` and at the mean time, is a `Customer` too. The communication sequence is:
 ```
-    (1) `module[A]` want to invoke an `api` of `module[B]`, `module[A]` will send a message to `module[B]`'s `producerQueue`, in that message, information of `module[A]`'s `customerQueue` is attached
+(1) `module[A]` want to invoke an `api` of `module[B]`, 
+    `module[A]` will send a message to `module[B]`'s `producerQueue`, 
+    in that message, 
+    information of `module[A]`'s `customerQueue` is attached
 
-    (2) `module[B]` receive that message from `module[A]`, parse the `api` and arguments out, invoke the specified api with those arguments, when finished, `module[B]` send the result back to `module[A]`'s `customerQueue` according to the attached information
+(2) `module[B]` receive that message from `module[A]`, 
+    parse the `api` and arguments out, 
+    invoke the specified api with those arguments, 
+    when finished, 
+    `module[B]` send the result back to `module[A]`'s `customerQueue`,
+    according to the attached information
 
-    (3) `module[A]` receive the execution result of the invoked api from its `customerQueue` and execute the coresponding `callback`
+(3) `module[A]` receive the execution result,
+    from its `customerQueue`,
+    and then execute the coresponding `callback`
 ```
 
