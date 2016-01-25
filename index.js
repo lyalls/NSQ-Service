@@ -1,4 +1,4 @@
 module.exports = {
-    handler: require('./messageHandler'),
-    queue: require('./messageQueue')
+    handler: require('./lib/messageHandler'),
+    queue: require('./lib/messageQueue')
 }

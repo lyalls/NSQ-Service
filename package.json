@@ -1,0 +1,35 @@
+{
+  "name": "nsq-service",
+  "version": "0.1.0",
+  "description": "Inner service wrapper using NSQ, help to host distributed modules by communicating through NSQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyalls/NSQ-Service.git"
+  },
+  "keywords": [
+    "nsq",
+    "NSQ",
+    "module",
+    "modules",
+    "model",
+    "models",
+    "service",
+    "micro-service",
+    "services",
+    "distributed"
+  ],
+  "author": "Lyall Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyalls/NSQ-Service/issues"
+  },
+  "homepage": "https://github.com/lyalls/NSQ-Service#readme",
+  "dependencies": {
+    "nsq.js": "0.14.5",
+    "lodash": "4.0.0" 
+  }
+}
