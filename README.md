@@ -76,5 +76,5 @@ Every module in a distributed architecture is a `Producer` and at the mean time,
 ####2. `MessageID` and `Async`
 Every message contains a `MessageID`, which is composed by timestamp, machine name, and random numbers, it's very hard to get collision even in millions messages per second
 
-As every message is executed asynchronously
+Every message is executed asynchronously
 
