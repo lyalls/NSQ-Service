@@ -97,7 +97,7 @@ module.exports = {
 			writer.publish(producerQueue, reqMsg);
 		},
 
-		loadManager: function(name, manager){
+		addManager: function(name, manager){
 			managers[name] = manager;
 		}
 }
