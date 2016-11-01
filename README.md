@@ -1,5 +1,7 @@
 Introduction
 ============
+A Micro-Service architecture solution using MessageQueue (Currently, mainly using NSQ)
+
 
 Quick start
 -----------

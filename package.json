@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyalls/NSQ-Service.git"
+    "url": "git+https://github.com/mrsunlin/NSQ-Service.git"
   },
   "keywords": [
     "nsq",
@@ -22,12 +22,12 @@
     "services",
     "distributed"
   ],
-  "author": "Lyall Sun",
+  "author": "Lin Sun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lyalls/NSQ-Service/issues"
+    "url": "https://github.com/mrsunlin/NSQ-Service/issues"
   },
-  "homepage": "https://github.com/lyalls/NSQ-Service#readme",
+  "homepage": "https://github.com/mrsunlin/NSQ-Service#readme",
   "dependencies": {
     "nsq.js": "0.14.5",
     "lodash": "4.0.0" 
